@@ -1,7 +1,7 @@
 require 'rails/generators'
 require 'rails/generators/migration'
 
-module RailsSettingCached::Settings
+module Global::Settings
   class InstallGenerator < Rails::Generators::NamedBase
     desc 'Generate RailsSettings files.'
     include Rails::Generators::Migration
